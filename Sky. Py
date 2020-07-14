@@ -1,0 +1,95 @@
+#python 2.7.15
+
+import time
+
+print "Hello,friend.."
+
+print "------welcome to sky----"
+
+print "log in or log up "
+
+user=raw_input("user: ")
+
+if user == "log in":
+
+    print "login"
+
+    username = raw_input("username: ") 
+
+    password = raw_input("password: ")
+
+    time.sleep(3)
+
+    print "log in successfull"
+
+elif user == "log up":   
+
+    print "log up"
+
+    username = raw_input("username: ")
+
+    password = raw_input("password: ")
+
+    mail = raw_input("e-mail id : ")
+
+    phone = raw_input("phone no: ")
+
+    time.sleep(3)
+
+    print "log up successfull"
+
+#from here program start   
+
+print "hello,my self Ro706 ..nice to meet u in this sky program u will learn many thing about earth ,space,and about ...so let start this :"
+
+print "how are u",username
+
+user = raw_input("user:")   
+
+if user == "fine":
+
+    print "nice"
+
+else:
+
+    print "why"
+
+    user=raw_input("user: ")
+
+    print "Oooo.."  
+
+print 
+
+print "nice too meet u ",username
+
+print "did u know who invented 0"
+
+print "yes / no"
+
+time.sleep(2)
+
+user=raw_input("user: ")
+
+if user == "yes":
+
+      user=raw_input("user: ")
+
+      if user == "aryabhata":
+
+          print "nice .."
+
+      else:
+
+          print "aryabhata"  
+
+        
+
+print "do u want to know about stars and space.."
+
+print "yes / no"
+
+user = raw_input("user: ")
+
+if user == "yes":
+
+    print " Stars are huge celestial bodies made mostly of hydrogen and helium that produce light and heat from the churning nuclear forges inside their cores. Aside from our sun, the dots of light we see in the sky are a
